@@ -1,0 +1,165 @@
+.home_container{
+    display:flex;
+    flex-direction:column;
+height:90vh;
+}
+.center{
+    height:80vh;
+    display:flex;
+}
+.home-logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+}
+.home-logo-img{
+    width:500px;
+    height:500px;
+}
+
+.home-photo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+}
+.home-photo-img{
+    border: 3px solid white;
+    filter:drop-shadow(10px 10px 20px black);
+    width:80%;
+    height: auto;
+}
+
+.home-texts{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+
+.home-text{
+
+    font-family: 'thecathasahat';
+    font-size: 1rem;
+    margin-right:1rem;
+    letter-spacing:0.3rem;
+}
+
+.one{
+    color:white;
+
+        margin-left:1rem;
+
+}
+.two{
+    color:#9B00FF;
+}
+.three{
+    color:yellow;
+}
+.four{
+    color:red;
+}
+.five{
+    color:#00FFE0;
+}
+.six{
+    color:#FF00B8;
+}
+.seven{
+    font-size: 1.5rem;
+    color:#001AFF;
+}
+
+@media screen and (max-width: 1060px) {
+
+.center{
+    display: block;
+    width: 100%;
+    
+}
+.home-logo{
+    margin:0;
+    padding:0;
+    width:100%;
+    margin-bottom:5vh;
+}
+
+.home-logo-img{
+    height:35vh;
+    width:auto;
+}
+
+.home-photo{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.home-photo-img{
+    height:40vh;
+    width:auto;
+    display:inline-block;
+
+}
+
+.home-text{
+    font-size:4w;
+}
+
+.home-texts{
+    height:10vh;
+    margin-top:2vh;
+    margin-left: 1vw;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .center{
+        display: block;
+        width: 100%;
+        
+    }
+    .home-logo{
+        margin:0;
+        padding:0;
+        width:100%;
+        margin-bottom:5vh;
+    }
+    
+    .home-logo-img{
+        height:35vh;
+        width:auto;
+    }
+    
+    .home-photo{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    .home-photo-img{
+        height:30vh;
+        width:auto;
+        display:inline-block;
+    
+    }
+    
+    .home-text{
+        font-size:4w;
+    }
+    
+    .home-texts{
+        height:10vh;
+        margin-top:2vh;
+        margin-left: 1vw;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+    }
+
+}
