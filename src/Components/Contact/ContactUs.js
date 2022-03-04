@@ -8,13 +8,13 @@ const ContactUs = () => {
       <div className="contact-medias">
         <ul>
           <li className="fali">
-            <a className="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a className="facebook" href="https://www.facebook.com/frizbiteknik"  target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
           </li>
           <li className="yoli">
-            <a className="youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a className="youtube" href="https://www.youtube.com/channel/UCRUW0qkgVEtPtzvBC5oVaWw" target="_blank"><i class="fa-brands fa-youtube" ></i></a>
           </li>
           <li className="inli">
-            <a className="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a className="instagram" href="https://www.instagram.com/frizbiteknik/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </li>
         </ul>
         

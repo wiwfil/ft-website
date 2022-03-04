@@ -5,12 +5,8 @@ import files from '../../assets/cards/cards.json';
 
 function Team({setSelectedImageId}) {
   var data = require('../../assets/cards/cards.json');
-  data.map(img => console.log("img:"+img.name))
-  console.log("files:"+data);
+  
 
-  const handleClick = () => {
-
-  }
 
   return (
     <div className="team-container">

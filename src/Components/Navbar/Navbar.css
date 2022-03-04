@@ -164,8 +164,8 @@
   .nav-icon{
       display: block;
       position:absolute;
-      top: 2vh;
-      right:2vw;
+      top: 0;
+      right:8px;
     font-size:25px;
     cursor: pointer;
     color:yellow;
