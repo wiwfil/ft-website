@@ -8,7 +8,7 @@ const Modal = ({ selectedImageId, setSelectedImageId }) => {
   };
   return (
     <div className="backdrop" onClick={handleClick}>
-      <img
+      <img 
         key={selectedImageId}
         src={require(`../../assets/cards/${
           selectedImageId ? selectedImageId : "1"
