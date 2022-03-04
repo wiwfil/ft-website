@@ -19,7 +19,6 @@
     background-color:#1F1F1F;
     border:3px solid white;
     max-width: 95vw;
-    margin-bottom:10px;
    filter:drop-shadow(10px 10px 20px black);
 
 }
@@ -34,7 +33,6 @@
     cursor: pointer;
     width: 20vw;
     height: auto !important; 
-    margin-bottom:15px;
     margin-right:7.5px;
     margin-left:7.5px
 }
