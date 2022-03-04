@@ -40,37 +40,13 @@ height:90vh;
 
 .home-text{
 
-    font-family: 'thecathasahat';
+    font-family: 'Bungee', cursive;
     font-size: 1rem;
     margin-right:1rem;
     letter-spacing:0.3rem;
 }
 
-.one{
-    color:white;
 
-        margin-left:1rem;
-
-}
-.two{
-    color:#9B00FF;
-}
-.three{
-    color:yellow;
-}
-.four{
-    color:red;
-}
-.five{
-    color:#00FFE0;
-}
-.six{
-    color:#FF00B8;
-}
-.seven{
-    font-size: 1.5rem;
-    color:#001AFF;
-}
 
 @media screen and (max-width: 1060px) {
 
